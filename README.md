@@ -20,8 +20,8 @@ customer-segmentation-project/
 |   ├── R&D(ML)_DeeptiGupta.pdf      # Case study documentation
 ├── images/                          # Images for Readme documentation
 |   ├── preprocessing.png            
-    ├── clustering.png
-    ├── dashboard.png
+|    ├── clustering.png
+|    ├── dashboard.png
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project documentation 
 
@@ -62,6 +62,7 @@ def load_data(file_path):
 ```
 
 **Output**: A preprocessed CSV file saved in the data/ folder.
+
 ![Preprocessing]()
 
 ### 2. Clustering 🤖
@@ -92,6 +93,8 @@ Use Streamlit in dashboard.py to visualize clusters interactively. The dashboard
 ```
 streamlit run app/dashboard.py
 ```
+
+![Dashboard]()
 
 ## 📊 Visualizing Clusters
 The visualization.py script leverages PCA for dimensionality reduction and uses Seaborn for beautiful scatter plots.
