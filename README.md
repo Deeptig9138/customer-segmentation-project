@@ -144,4 +144,5 @@ A detailed **Case Study** is provided in the case study folder.
 
 ## 🤝 Contributions
 Feel free to submit pull requests or report issues! Contributions are always welcome. 🙌
+
 💡 *Thank you for exploring the Customer Segmentation Project!* 💡
