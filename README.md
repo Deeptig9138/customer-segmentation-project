@@ -5,6 +5,7 @@ Welcome to the **Customer Segmentation Project**! This project uses **KMeans clu
 ---
 
 ## 📁 Project Structure
+```
 customer-segmentation-project/
 ├── data/                            # Directory for data files
 │   ├── customers.csv                # Raw dataset
@@ -24,6 +25,7 @@ customer-segmentation-project/
 │   ├── dashboard.png                # Streamlit dashboard view
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project documentation
+```
 
 ---
 
