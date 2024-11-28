@@ -65,7 +65,7 @@ def load_data(file_path):
 
 **Output**: A preprocessed CSV file saved in the data/ folder.
 
-![Preprocessing]()
+![Preprocessing](https://github.com/Deeptig9138/customer-segmentation-project/blob/main/images/preprocessing.png)
 
 ### 2. Clustering 🤖
 The clustering.py script applies KMeans clustering and evaluates the performance using the Silhouette Score.
@@ -81,7 +81,7 @@ def perform_kmeans_clustering(df, n_clusters):
     return labels, kmeans
 ```
 
-![Clustering]()
+![Clustering](https://github.com/Deeptig9138/customer-segmentation-project/blob/main/images/clustering.png)
 
 ### 3. Interactive Dashboard 📈
 Use Streamlit in dashboard.py to visualize clusters interactively. The dashboard includes PCA plots for dimensionality reduction and cluster interpretation.
@@ -96,7 +96,8 @@ Use Streamlit in dashboard.py to visualize clusters interactively. The dashboard
 streamlit run app/dashboard.py
 ```
 
-![Dashboard]()
+![Dashboard](https://github.com/Deeptig9138/customer-segmentation-project/blob/main/images/dashboard.png)
+![Dashboard1](https://github.com/Deeptig9138/customer-segmentation-project/blob/main/images/dashboard1.png)
 
 ## 📊 Visualizing Clusters
 The visualization.py script leverages PCA for dimensionality reduction and uses Seaborn for beautiful scatter plots.
