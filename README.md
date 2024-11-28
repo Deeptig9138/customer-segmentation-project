@@ -10,20 +10,20 @@ customer-segmentation-project/
 │   ├── customers.csv                # Raw dataset
 │   ├── customers_preprocessed.csv   # Preprocessed dataset
 ├── src/
-|   ├── data_preprocessing.py        # Data cleaning, encoding, and scaling script
-|   ├── clustering.py                # KMeans clustering and evaluation script
-|   ├── utils.py                     # Utility functions for data handling
-|   ├── visualization.py             # PCA and cluster visualization functions
+│   ├── data_preprocessing.py        # Data cleaning, encoding, and scaling script
+│   ├── clustering.py                # KMeans clustering and evaluation script
+│   ├── utils.py                     # Utility functions for data handling
+│   ├── visualization.py             # PCA and cluster visualization functions
 ├── app/
-|   ├── dashboard.py                 # Streamlit dashboard for interactive visualization
+│   ├── dashboard.py                 # Streamlit dashboard for interactive visualization
 ├── case study/
-|   ├── R&D(ML)_DeeptiGupta.pdf      # Case study documentation
+│   ├── R&D(ML)_DeeptiGupta.pdf      # Case study documentation
 ├── images/                          # Images for Readme documentation
-|   ├── preprocessing.png            
-|    ├── clustering.png
-|    ├── dashboard.png
+│   ├── preprocessing.png            # Visualization of preprocessing steps
+│   ├── clustering.png               # Example of clustering output
+│   ├── dashboard.png                # Streamlit dashboard view
 ├── requirements.txt                 # Python dependencies
-└── README.md                        # Project documentation 
+└── README.md                        # Project documentation
 
 ---
 
